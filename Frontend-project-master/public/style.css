@@ -1,0 +1,80 @@
+body {
+    padding-top: 56px;
+    background-color: #d9ffb3;
+}
+
+.bg-image-full {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bgImg {
+    background-image: url(/public/images/leaf-1498985_1280.jpg);
+    background-size: 100%;
+    font-weight: bold!important;
+    font-size: 100%!important;
+    
+}
+
+
+
+.header-image {
+    background-image: url(/public/images/abandoned-forest-hd-wallpaper-34950.jpg);
+    margin-top: 2%;
+    background-size: 100%;
+}
+
+.header2-image {
+    background-image: url(/public/images/animal-animal-photography-carnivore-792381.jpg);
+    margin-top: 5px;
+      background-size: 100%;
+}
+
+.header3-image {
+    background-image: url(/public/images/daylight-environment-forest-459225.jpg);
+    margin-top: 5px;
+      background-size: 100%;
+}
+
+.navbar-over {
+    width: 100%;
+}
+
+.bg-green {
+    background-color: #009900;
+}
+
+.footer-bg {
+    background-color: #009900;
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    width: 100%;
+}
+
+.myBgChange {
+    background-color: #009900;
+    color: antiquewhite;
+}
+
+.btn-primary {
+    background-color: #009900;
+    border-color: #99ff33;
+}
+
+.blogBG {
+    background-color: #e6ffb3;
+}
+
+.ownTxtarea {
+    height: 50 !important;
+    width: 100% !important;
+}
+
+.OwnNamearea {
+    height: 50 !important;
+    width: 100% !important;
+}

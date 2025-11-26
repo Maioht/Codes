@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <title>nature park</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="public/style.css">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/public/blog.js"></script>
+
+    <title>welcome</title>
+</head>
+
+<body onload="renderComments()">
+    <!-- navigation -->
+    <nav class="navbar navbar-expand navbar-dark bgImg fixed-top">
+        <a class="navbar-brand" href="#">Nature </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/">Home</a>
+                <a class="nav-item active nav-link" href="#">Blog<span class="sr-only">(current)</span></a>
+
+
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8 blogBG">
+
+                <h1 class="my-4">
+                    <small>Nature Blog</small>
+                </h1>
+
+                <!-- Blog Post -->
+                <div class="card mb-4">
+
+                    <div class="card-body">
+                        <h2 class="card-title">Post Title</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                        <a href="#" class="btn btn-success">Read More &rarr;</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Posted on January 9, 2019 by
+                        <a href="#">Author</a>
+                    </div>
+
+
+
+                </div>
+
+                <div class="card mb-4">
+
+                    <div class="card-body">
+                        <h2 class="card-title">Post Title</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                        <a href="#" class="btn btn-success">Read More &rarr;</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Posted on January 2, 2019 by
+                        <a href="#">Author</a>
+                    </div>
+
+                </div>
+
+
+                <!-- Pagination -->
+                <ul class="pagination justify-content-center mb-4">
+                    <li class="page-item">
+                        <a class="page-link" href="#">&larr; Older</a>
+                    </li>
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#">Newer &rarr;</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+
+                <!-- Side box-->
+                <div class="card my-4">
+                    <h5 class="card-header myBgChange">info box</h5>
+                    <div class="card-body">
+                        lore Ipsum
+                    </div>
+                </div>
+
+                <!-- Categories Widget -->
+                <div class="card my-4">
+                    <h5 class="card-header myBgChange">Greetings</h5>
+                    <div class="card-body">
+                        <div class="well">
+                            <form class="form-inline">
+
+                                <input type="text" id="userName" class="form-control input-sm chat-input OwnNamearea" placeholder="Insert your name" />
+                                <br/>
+                                <br/>
+                                <textarea id="userComment" class="form-control input-sm chat-input ownTxtarea" placeholder="Write your message here..."></textarea>
+                                <br/>
+
+                                <span class="input-group-btn" onclick="addComment()">     
+                                        <a href="#" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-comment"></span> Add Comment</a>
+                                </span>
+                            </form>
+                            <hr>
+                            <div id="commentsContainer">
+                                <!-- this comes dynamic comments-->
+                                <div class="media-body">
+                                    <h5 class="media-heading">Jane Doe</h5>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!--Footer-->
+    <footer class="footer-bg">
+        <div class="container ">
+            <p class="m-0 text-center text-white ">Copyright</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+
+</html>
