@@ -1,0 +1,1 @@
+[{"x":0, "y":0, "bestSpeed": 0, "bestStation":null}, {"x":100, "y":100, "bestSpeed": 0, "bestStation":null}, {"x":15, "y":10, "bestSpeed": 0, "bestStation":null}, {"x":18, "y":18, "bestSpeed": 0, "bestStation":null}, {"x":13, "y":13, "bestSpeed": 0, "bestStation":null}, {"x":25, "y":99, "bestSpeed": 0, "bestStation":null}]
